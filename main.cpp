@@ -210,7 +210,7 @@ int main() {
     string romanNum="";
     vector<int> calcList;
 
-    cout << "Please insert the roman numeral value without any spaces at the beginning, in between numbers, or end" << endl;
+    cout << "Please insert the roman numeral value or the decimal value without any spaces at the beginning, in between numbers, or end" << endl;
     cout << "To close the program, simply enter 'end'" << endl;
     do {
         //Reset the values each time the program executes.
