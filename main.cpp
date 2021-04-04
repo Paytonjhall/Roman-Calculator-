@@ -218,6 +218,7 @@ int main() {
         calcR = 0;
         total = 0;
         romanNum = "";
+        calcList.clear();
         cin >> input;
         if (input == "end" || input == "\'end\'" || input == "End" || input == "END") return 0;
         else if (isdigit(input.at(0))) {
